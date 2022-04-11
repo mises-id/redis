@@ -9,7 +9,6 @@ import (
 )
 
 func main() {
-
 	ctx := context.Background()
 
 	rdb := redis.NewClient(&redis.Options{
