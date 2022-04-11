@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	redis "github.com/mises-id/redis"
+	redis "github.com/go-redis/redis/v8"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

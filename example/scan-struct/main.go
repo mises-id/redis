@@ -5,7 +5,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	redis "github.com/mises-id/redis"
+	redis "github.com/go-redis/redis/v8"
 )
 
 type Model struct {

@@ -12,8 +12,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	redis "github.com/mises-id/redis"
-	"github.com/mises-id/redis/internal/hashtag"
+	redis "github.com/go-redis/redis/v8"
+	"github.com/go-redis/redis/v8/internal/hashtag"
 )
 
 type clusterScenario struct {

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mises-id/redis/internal/pool"
+	"github.com/go-redis/redis/v8/internal/pool"
 )
 
 // Limiter is the interface of a rate limiter or a circuit breaker.

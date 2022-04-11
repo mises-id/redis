@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mises-id/redis"
+	"github.com/go-redis/redis/v8"
 )
 
 func benchmarkRedisClient(ctx context.Context, poolSize int) *redis.Client {

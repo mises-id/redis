@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mises-id/redis/internal/proto"
+	"github.com/go-redis/redis/v8/internal/proto"
 )
 
 var ctx = context.TODO()

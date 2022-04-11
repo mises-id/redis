@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	redis "github.com/mises-id/redis"
+	redis "github.com/go-redis/redis/v8"
 )
 
 var (

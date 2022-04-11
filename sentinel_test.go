@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	redis "github.com/mises-id/redis"
+	redis "github.com/go-redis/redis/v8"
 )
 
 var _ = Describe("Sentinel", func() {

@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/mises-id/redis/internal"
+	"github.com/go-redis/redis/v8/internal"
 )
 
 // KeepTTL is a Redis KEEPTTL option to keep existing TTL, it requires your redis-server version >= 6.0,

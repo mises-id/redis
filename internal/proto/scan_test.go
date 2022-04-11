@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/mises-id/redis/internal/proto"
+	"github.com/go-redis/redis/v8/internal/proto"
 )
 
 type testScanSliceStruct struct {
