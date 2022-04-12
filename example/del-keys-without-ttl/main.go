@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	redis "github.com/go-redis/redis/v8"
+	"github.com/go-redis/redis/v8"
 )
 
 func main() {

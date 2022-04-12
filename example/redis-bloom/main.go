@@ -5,11 +5,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	redis "github.com/go-redis/redis/v8"
+	"github.com/go-redis/redis/v8"
 )
 
 func main() {
-
 	ctx := context.Background()
 
 	rdb := redis.NewClient(&redis.Options{
